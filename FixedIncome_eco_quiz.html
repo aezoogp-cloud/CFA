@@ -179,14 +179,16 @@ function setup(){
   var counts={}; Q.forEach(function(q){counts[q.module]=(counts[q.module]||0)+1;});
   var opts='<option value="all">전체 모듈 ('+Q.length+'문제)</option>'+Object.keys(MN).map(function(m){return '<option value="'+m+'">'+esc(mname(m))+' ('+counts[m]+')</option>';}).join("");
   var resume = S && !S.finished && S.order && S.order.length ? '<button class="btn primary" id="bResume">이어서 풀기 ('+roundStats().answered+'/'+S.order.length+')</button> ' : '';
+  var remote = REMOTE ? '<button class="btn" id="bRemote">저장된 기록에서 이어서 풀기 ('+REMOTE.answered+'/'+REMOTE.total+', '+esc(REMOTE.date)+')</button> ' : '';
   $("view").innerHTML =
    '<section class="card setup"><h2 style="margin:0 0 6px;font-size:22px">Fixed Income 전체 모듈 오답 퀴즈</h2>'+
    '<p class="muted">ECO에서 틀린 130문제 전부 + 오답 개념과 연결된 ECO 정답 유형 40문제 + 같은 개념을 다른 각도에서 묻는 변형 17문제 (총 187문제). 정답은 ECO 원본 정답, 해설은 ECO 원본 해설과 Schweser 기준으로 작성했습니다.</p>'+
    '<label>범위 <select id="selMod">'+opts+'</select></label>'+
    '<label>출처 <select id="selSrc"><option value="all">전체</option><option value="wrong">ECO 오답만 (130)</option><option value="nowrong">오답 외 문제만</option></select></label>'+
    '<p class="kbd">단축키: A/B/C 또는 1/2/3 선택 · Enter 다음 문제 · ← 이전 문제</p>'+
-   '<div class="nav" style="justify-content:flex-start">'+resume+'<button class="btn '+(resume?'':'primary')+'" id="bStart">새로 시작</button></div></section>';
+   '<div class="nav" style="justify-content:flex-start">'+resume+remote+'<button class="btn '+(resume?'':'primary')+'" id="bStart">새로 시작</button></div></section>';
   if($("bResume")) $("bResume").onclick=function(){ S.view="quiz"; save(); render(); };
+  if($("bRemote")) $("bRemote").onclick=function(){ applyResults(REMOTE.data,false); };
   $("bStart").onclick=function(){
     var m=$("selMod").value, s=$("selSrc").value;
     var order=Q.filter(function(q){ return (m==="all"||String(q.module)===m) && (s==="all"||(s==="wrong"?q.src==="ECO 오답":q.src!=="ECO 오답")); }).map(function(q){return q.id;});
@@ -299,37 +301,54 @@ function exportResults(){
 }
 
 /* ---------- import ---------- */
+// 결과 JSON(내보내기 파일 또는 results/{과목}/latest.json)의 마지막 attempt로 진행 상태를 복원한다.
+function applyResults(d, quiet){
+  if(!d || d.subject!==SUBJECT || !d.attempts || !d.attempts.length){ if(!quiet) alert(SUBJECT+" 결과 파일이 아닙니다."); return false; }
+  var at=d.attempts[d.attempts.length-1], order=[], round={};
+  (at.questions||[]).forEach(function(x){
+    var q=BYID[x.id]; if(!q) return;
+    order.push(x.id);
+    if(x.selected) round[x.id]={sel:x.selected, correct:x.selected===q.ans};
+  });
+  if(!order.length){ if(!quiet) alert("불러올 문제가 없습니다."); return false; }
+  if(!quiet && S && S.order && Object.keys(S.round||{}).length && !confirm("현재 진행 기록을 불러온 결과로 바꿉니다. 계속할까요?")) return false;
+  var all=(S&&S.all)||{};
+  (at.questions||[]).forEach(function(x){
+    if(!BYID[x.id] || all[x.id] || !x.selected) return;
+    var ok=x.selected===BYID[x.id].ans;
+    all[x.id]={attempts:x.attempts||1, correctCount:ok?1:0, history:[{sel:x.selected,correct:ok,at:at.exportedAt}], last:x.selected, lastCorrect:ok};
+  });
+  var idx=0; while(idx<order.length && round[order[idx]]) idx++;
+  var done=idx>=order.length;
+  S={order:order, idx:done?order.length-1:idx, mode:at.mode==="review"?"review":"all", round:round, all:all,
+     started:at.startedAt||new Date().toISOString(), finished:done, view:done?"result":"quiz"};
+  save(); render(); window.scrollTo(0,0);
+  return true;
+}
 function importResults(file){
   var rd=new FileReader();
   rd.onload=function(){
-    var d, at;
+    var d;
     try{ d=JSON.parse(rd.result); }catch(e){ alert("JSON 파일을 읽을 수 없습니다."); return; }
-    if(!d || d.subject!==SUBJECT || !d.attempts || !d.attempts.length){ alert(SUBJECT+" 결과 파일이 아닙니다."); return; }
-    at=d.attempts[d.attempts.length-1];
-    var order=[], round={};
-    (at.questions||[]).forEach(function(x){
-      var q=BYID[x.id]; if(!q) return;
-      order.push(x.id);
-      if(x.selected) round[x.id]={sel:x.selected, correct:x.selected===q.ans};
-    });
-    if(!order.length){ alert("불러올 문제가 없습니다."); return; }
-    if(S && S.order && Object.keys(S.round||{}).length && !confirm("현재 진행 기록을 불러온 결과로 바꿉니다. 계속할까요?")) return;
-    var all=(S&&S.all)||{};
-    (at.questions||[]).forEach(function(x){
-      if(!BYID[x.id] || all[x.id] || !x.selected) return;
-      var ok=x.selected===BYID[x.id].ans;
-      all[x.id]={attempts:x.attempts||1, correctCount:ok?1:0, history:[{sel:x.selected,correct:ok,at:at.exportedAt}], last:x.selected, lastCorrect:ok};
-    });
-    var idx=0; while(idx<order.length && round[order[idx]]) idx++;
-    var done=idx>=order.length;
-    S={order:order, idx:done?order.length-1:idx, mode:at.mode==="review"?"review":"all", round:round, all:all,
-       started:at.startedAt||new Date().toISOString(), finished:done, view:done?"result":"quiz"};
-    save(); render(); window.scrollTo(0,0);
+    applyResults(d,false);
   };
   rd.readAsText(file);
 }
 $("bImport").onclick=function(){ $("fImport").value=""; $("fImport").click(); };
 $("fImport").onchange=function(){ if(this.files && this.files[0]) importResults(this.files[0]); };
+
+// 저장된 기록: 이 브라우저에 진행 기록이 없으면 자동으로 이어 풀고, 있으면 처음 화면에 버튼만 보여 준다.
+var REMOTE=null;
+function loadRemote(){
+  if(!window.fetch) return;
+  fetch("results/"+SUBJECT+"/latest.json",{cache:"no-store"}).then(function(r){ return r.ok?r.json():null; }).then(function(d){
+    if(!d || d.subject!==SUBJECT || !d.attempts || !d.attempts.length) return;
+    var at=d.attempts[d.attempts.length-1];
+    REMOTE={data:d, date:d.date||"", answered:at.answered||0, total:at.totalQuestions||0};
+    if(!S || !S.order || !Object.keys(S.round||{}).length){ applyResults(d,true); }
+    else if(S.view==="setup"){ setup(); }
+  })["catch"](function(){});
+}
 
 /* ---------- routing ---------- */
 function render(){
@@ -350,6 +369,7 @@ document.addEventListener("keydown",function(e){
   else if(e.key==="ArrowLeft"){ prev(); }
 });
 render();
+loadRemote();
 })();
 </script>
 </body>

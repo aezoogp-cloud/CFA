@@ -1,0 +1,362 @@
+{
+  "subject": "FSA",
+  "date": "2026-10-07",
+  "latest": {
+    "totalQuestions": 32,
+    "answered": 7,
+    "correct": 5,
+    "wrong": 2
+  },
+  "attempts": [
+    {
+      "exportedAt": "2026-10-06T22:46:09.028Z",
+      "mode": "all",
+      "startedAt": "2026-10-06T22:20:27.921Z",
+      "totalQuestions": 32,
+      "answered": 7,
+      "correct": 5,
+      "wrong": 2,
+      "accuracy": 0.7143,
+      "questions": [
+        {
+          "id": "ECO-M1-Q4",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "FVPL vs Amortized cost – EBT 영향",
+          "source": "ECO 오답",
+          "selected": "C",
+          "correctAnswer": "C",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q5",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Premium / Discount amortization",
+          "source": "ECO 오답",
+          "selected": "B",
+          "correctAnswer": "B",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q6",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "SPE 연결 (IFRS)",
+          "source": "ECO 오답",
+          "selected": "B",
+          "correctAnswer": "B",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q17",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "JV – Equity method (one-line consolidation)",
+          "source": "ECO 오답",
+          "selected": "B",
+          "correctAnswer": "A",
+          "isCorrect": false,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q21",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "SPE 연결 – 내부거래 제거",
+          "source": "ECO 오답",
+          "selected": "A",
+          "correctAnswer": "A",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q24",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Equity method – Goodwill 계산",
+          "source": "ECO 오답",
+          "selected": "B",
+          "correctAnswer": "B",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q26",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Equity method – 기말 장부가",
+          "source": "ECO 오답",
+          "selected": "A",
+          "correctAnswer": "B",
+          "isCorrect": false,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q30",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Equity vs Consolidation – LT Debt/Equity",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q33",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Equity vs Consolidation – ROE(기초자본)",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q34",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Equity vs Consolidation – Asset turnover",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q39",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Equity method 판단 – 이사회 의석",
+          "source": "ECO 관련유형",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q40",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Equity method goodwill (FV 기준)",
+          "source": "ECO 관련유형",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q41",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Equity method 투자 손상",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q42",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "SPE 증권화 – 연결 효과",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q43",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "FVPL 투자수익",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q44",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Equity method – 초과취득가 상각",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q45",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Full vs Partial goodwill (US GAAP vs IFRS)",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q46",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "주식 발행 인수 – 부채비율",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q48",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Acquisition method – 식별가능 무형자산",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q49",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "IFRS 9 분류 – Amortized cost 요건",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q52",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "IFRS 9 재분류",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q53",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Bargain purchase (negative goodwill)",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q54",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "연결 – 내부거래 제거",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q55",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "JV – IFRS·US GAAP 모두 equity method",
+          "source": "ECO 관련유형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q56",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "IFRS 9 재분류 – 채무상품만",
+          "source": "ECO 관련유형",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q58",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Partial goodwill (IFRS) vs US GAAP",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "SCH-M1-01",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "투자 분류 – 유의적 영향력 반증",
+          "source": "Schweser MQ",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "SCH-M1-02",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Equity method – 기말 장부가",
+          "source": "Schweser MQ",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "SCH-M1-03",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Equity method – 투자이익 vs 현금",
+          "source": "Schweser MQ",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "SCH-M1-04",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "Equity vs Consolidation – NPM",
+          "source": "Schweser MQ",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "SCH-M1-05",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "IFRS goodwill 손상검사",
+          "source": "Schweser MQ",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "SCH-M1-06",
+          "module": "Module 1 – Intercorporate Investments",
+          "concept": "FVOCI vs FVPL – EBT 영향 (변형)",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        }
+      ],
+      "moduleAccuracy": {
+        "Module 1 – Intercorporate Investments": {
+          "total": 32,
+          "answered": 7,
+          "correct": 5,
+          "accuracy": 0.7143
+        }
+      },
+      "weakConcepts": [
+        {
+          "concept": "Module 1 – Intercorporate Investments / JV – Equity method (one-line consolidation)",
+          "wrong": 1
+        },
+        {
+          "concept": "Module 1 – Intercorporate Investments / Equity method – 기말 장부가",
+          "wrong": 1
+        }
+      ]
+    }
+  ]
+}
