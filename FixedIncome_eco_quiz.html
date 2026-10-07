@@ -117,6 +117,8 @@ details.en summary{cursor:pointer;color:var(--ink2);font-weight:600}
     <button class="btn" id="bHome">처음 화면</button>
     <button class="btn" id="bResult">결과 보기</button>
     <button class="btn" id="bExport">결과 내보내기</button>
+    <button class="btn" id="bImport">결과 불러오기</button>
+    <input type="file" id="fImport" accept=".json,application/json" hidden>
   </div>
   <div id="view"></div>
 </main>
@@ -295,6 +297,39 @@ function exportResults(){
   var a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=SUBJECT+"_results_"+d+".json";
   document.body.appendChild(a); a.click(); setTimeout(function(){URL.revokeObjectURL(a.href); a.remove();},500);
 }
+
+/* ---------- import ---------- */
+function importResults(file){
+  var rd=new FileReader();
+  rd.onload=function(){
+    var d, at;
+    try{ d=JSON.parse(rd.result); }catch(e){ alert("JSON 파일을 읽을 수 없습니다."); return; }
+    if(!d || d.subject!==SUBJECT || !d.attempts || !d.attempts.length){ alert(SUBJECT+" 결과 파일이 아닙니다."); return; }
+    at=d.attempts[d.attempts.length-1];
+    var order=[], round={};
+    (at.questions||[]).forEach(function(x){
+      var q=BYID[x.id]; if(!q) return;
+      order.push(x.id);
+      if(x.selected) round[x.id]={sel:x.selected, correct:x.selected===q.ans};
+    });
+    if(!order.length){ alert("불러올 문제가 없습니다."); return; }
+    if(S && S.order && Object.keys(S.round||{}).length && !confirm("현재 진행 기록을 불러온 결과로 바꿉니다. 계속할까요?")) return;
+    var all=(S&&S.all)||{};
+    (at.questions||[]).forEach(function(x){
+      if(!BYID[x.id] || all[x.id] || !x.selected) return;
+      var ok=x.selected===BYID[x.id].ans;
+      all[x.id]={attempts:x.attempts||1, correctCount:ok?1:0, history:[{sel:x.selected,correct:ok,at:at.exportedAt}], last:x.selected, lastCorrect:ok};
+    });
+    var idx=0; while(idx<order.length && round[order[idx]]) idx++;
+    var done=idx>=order.length;
+    S={order:order, idx:done?order.length-1:idx, mode:at.mode==="review"?"review":"all", round:round, all:all,
+       started:at.startedAt||new Date().toISOString(), finished:done, view:done?"result":"quiz"};
+    save(); render(); window.scrollTo(0,0);
+  };
+  rd.readAsText(file);
+}
+$("bImport").onclick=function(){ $("fImport").value=""; $("fImport").click(); };
+$("fImport").onchange=function(){ if(this.files && this.files[0]) importResults(this.files[0]); };
 
 /* ---------- routing ---------- */
 function render(){
