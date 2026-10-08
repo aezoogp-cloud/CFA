@@ -1,0 +1,1392 @@
+{
+  "subject": "PM",
+  "date": "2026-10-08",
+  "latest": {
+    "totalQuestions": 130,
+    "answered": 15,
+    "correct": 8,
+    "wrong": 7
+  },
+  "attempts": [
+    {
+      "exportedAt": "2026-10-08T08:55:48.901Z",
+      "mode": "all",
+      "startedAt": "2026-10-08T01:34:00.746Z",
+      "totalQuestions": 130,
+      "answered": 15,
+      "correct": 8,
+      "wrong": 7,
+      "accuracy": 0.5333,
+      "questions": [
+        {
+          "id": "ECO-M1-Q1",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "가격 결정요인: real risk-free rate",
+          "source": "ECO 오답",
+          "selected": "C",
+          "correctAnswer": "C",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q2",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "소득·부 증가 → 위험프리미엄 ↓",
+          "source": "ECO 오답",
+          "selected": "C",
+          "correctAnswer": "C",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q3",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "인플레이션 불확실성 프리미엄 계산",
+          "source": "ECO 오답",
+          "selected": "B",
+          "correctAnswer": "B",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q7",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "경기침체 → 수익률곡선 steepen",
+          "source": "ECO 오답",
+          "selected": "C",
+          "correctAnswer": "B",
+          "isCorrect": false,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q11",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "고성장 → 실질금리 ↑ (차입 증가)",
+          "source": "ECO 오답",
+          "selected": "B",
+          "correctAnswer": "A",
+          "isCorrect": false,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q15",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "경기침체 → 수익률곡선 steepen",
+          "source": "ECO 오답",
+          "selected": "B",
+          "correctAnswer": "B",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q16",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "우상향 곡선 = 단기채가 좋은 헤지",
+          "source": "ECO 오답",
+          "selected": "B",
+          "correctAnswer": "C",
+          "isCorrect": false,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q17",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "곡선 기울기 = 금리 기대 + 위험프리미엄",
+          "source": "ECO 오답",
+          "selected": "C",
+          "correctAnswer": "C",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q28",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "상업용 부동산 할인율 = 주식 + 유동성 프리미엄",
+          "source": "ECO 오답",
+          "selected": "A",
+          "correctAnswer": "C",
+          "isCorrect": false,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q29",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "경기기업 이익 = 경기 선행지표",
+          "source": "ECO 오답",
+          "selected": "B",
+          "correctAnswer": "B",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q32",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "부동산 PV 분자 = 순임대수입",
+          "source": "ECO 오답",
+          "selected": "C",
+          "correctAnswer": "A",
+          "isCorrect": false,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q39",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "내구재 기업 이익 변동성 ↑",
+          "source": "ECO 오답",
+          "selected": "C",
+          "correctAnswer": "C",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q40",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "스프레드 축소 → 경기민감·저등급 유리",
+          "source": "ECO 오답",
+          "selected": "A",
+          "correctAnswer": "A",
+          "isCorrect": true,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q45",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "예상된 정보 = 가격 변화 없음",
+          "source": "ECO 오답",
+          "selected": "A",
+          "correctAnswer": "B",
+          "isCorrect": false,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q48",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "하방 서프라이즈 → 공매도 대상 고르기",
+          "source": "ECO 오답",
+          "selected": "A",
+          "correctAnswer": "B",
+          "isCorrect": false,
+          "attempts": 1
+        },
+        {
+          "id": "ECO-M1-Q54",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "경기 확장 → 회수율 ↑",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q55",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "침체기 최악 채권: 저등급 + 경기민감",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q57",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "주식의 소비 헤지 성격 = 나쁨",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q58",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "trailing P/E vs forward P/E",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q60",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "실질금리 ∝ GDP 성장률 & 변동성",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q61",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "BEI = 명목채 − 실질채 수익률",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q66",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "효율적 시장: 예상된 정보는 이미 반영",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M1-Q67",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "서프라이즈 방향으로 판단",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M1-01",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "BEI = π + θ",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M1-02",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "스프레드 축소 → 저등급 개선 폭 최대",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M1-03",
+          "module": "Reading 34 – Economics and Investment Markets",
+          "concept": "Expected loss 계산",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q1",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "Active return ≠ alpha",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q3",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "Value added 계산",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q4",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "벤치마크 요건: 투자 기회 반영",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q6",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "Active return 일관성 = IR",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q7",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "SR_P² = SR_B² + IR²",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q9",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "Active return 달성 능력 = IR",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q14",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "IR: 현금 추가 vs 액티브 비중 비례 확대",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q16",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "Closet index의 특징",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q19",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "최적 active risk와 비중",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q23",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "TC 정의",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q25",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "예측 능력 = IC",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q26",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "예측을 비중에 반영하는 능력 = TC",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q43",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "Closet indexer: 위험조정 가치 없음",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q45",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "매니저 선택 기준 = 기대 IR",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q50",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "Breadth 정의",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q52",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "Value added = RP − RB",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q56",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "IC와 TC의 의미 (correlation triangle)",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q63",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "파생상품 헤지 → Breadth ↑",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M2-Q66",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "TC = 예측 active return vs 액티브 비중",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M2-01",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "Closet index 특징",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M2-02",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "Fundamental law 계산",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M2-03",
+          "module": "Reading 35 – Analysis of Active Portfolio Management",
+          "concept": "최적 active risk 계산",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q1",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "ETF의 primary/secondary market",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q7",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "Tracking error 낮추는 요인",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q8",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "Bid–ask spread 결정요인",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q9",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "NAV 대비 프리미엄/할인 큰 ETF",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q10",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "ETF 총 보유비용 계산",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q12",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "Rolling holding period(tracking difference)",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q13",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "Tracking error 정의",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q15",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "ETF vs 뮤추얼펀드 자본이득 분배",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q16",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "ETF 분배: ROC vs 배당",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q19",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "고유동성 ETF spread: 창설·환매 비용 영향 작음",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q21",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "Expectation-related risk",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q24",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "ETF 활용: transition management",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q25",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "ETF 참여자 역할",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q27",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "ETF 유형별 위험 연결",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q30",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "ETF 활용: completion",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q31",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "Smart beta ETF",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q35",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "ETF 주식 거래 특징",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q38",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "Tactical ETF 선택: 거래량/자산 비율",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q41",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "Bid–ask spread 줄이는 요인",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M3-Q42",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "Settlement risk",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M3-01",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "ETF 총 보유비용 계산",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M3-02",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "프리미엄 시 AP 차익거래",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M3-03",
+          "module": "Reading 36 – Exchange-Traded Funds: Mechanics and Applications",
+          "concept": "현물 환매와 세금 효율",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q4",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "APT 차익거래: 민감도 맞추기",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q6",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Macro 모형 수익률 = a + b × surprise",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q8",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Surprise 결합 효과 비교",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q9",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Macro 모형 기대수익률 = 절편",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q10",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Active risk의 원천 = 민감도 차이",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q12",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Macro vs Fundamental 모형 비교",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q23",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "IR = Active return / Tracking error",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q28",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "요인 노출과 투자자 적합성",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q31",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Fundamental 모형 기대수익률 계산",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q33",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "요인별 active return 기여",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q35",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "APT 가정",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q36",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "SMB·HML·WML → Fundamental 모형",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q38",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Active return = IR × active risk",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q41",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "요인모형 활용: portfolio construction",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q48",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Standardized beta = fundamental 모형",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q59",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "1요인 APT로 저평가 판단",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q60",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Macro 모형 기대수익률 = 가중 절편",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q61",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Statistical 모형의 요인 = 포트폴리오",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M4-Q64",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Multifactor 모형 활용",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M4-01",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Macro 모형 실현수익률",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M4-02",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "Active risk² 분해",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M4-03",
+          "module": "Reading 37 – Using Multifactor Models",
+          "concept": "요인별 active return 기여 (음수 요인)",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q2",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "Delta 낮추기: short call",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q5",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "VaR 한계: 유동성 위험 미반영",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q7",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "VaR 한계: 변동성 국면 변화",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q12",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "옵션 내재 채권 스트레스 테스트: full revaluation",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q17",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "Parametric VaR 계산 (연 → 일)",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q24",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "시나리오 분석이 VaR를 보완하는 이유",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q26",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "채권 비중 큰 포트폴리오 → duration",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q27",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "VaR 정의: 최소 손실",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q39",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "시나리오 분석: 과거 데이터 의존 X",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q41",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "위험 한도 유형 구분",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q42",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "VaR ≠ 손실 상한",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q48",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "경제적 자본 대비 수익률 vs hurdle rate",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q52",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "기관 유형별 위험 지표",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q56",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "VaR 방법별 특징",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q63",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "한 번도 없던 극단 사건 → stress test",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q66",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "가상 시나리오 분석의 단점",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M5-Q67",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "Position limit",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M5-01",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "Delta-gamma 근사",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M5-02",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "옵션 매도 전략 = tail risk ↑",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M5-03",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "Surplus at risk (연기금)",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M5-04",
+          "module": "Reading 38 – Measuring and Managing Market Risk",
+          "concept": "Parametric 금액 VaR 계산",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q5",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "비정규 분포 → sensitivity analysis",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q7",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "Data snooping (selection bias)",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q8",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "체제별 Sharpe ratio 비교",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q15",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "Historical simulation: bootstrapping",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q16",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "분포 바꿔 재실행 = sensitivity analysis",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q18",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "밀도 그래프가 평평 → 표준편차 ↑",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q21",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "백테스트 단계: 결과 분석",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q23",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "Monte Carlo: 모수 추정(calibration)",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q25",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "백테스트에서 거래비용 무시 X",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q26",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "t-분포: 왜도·초과 첨도 반영",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "C",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q32",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "체제별 Sharpe ratio 계산",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q33",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "Monte Carlo: 변수마다 분포 지정",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "ECO-M6-Q36",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "Data snooping 해결: cross-validation",
+          "source": "ECO 오답",
+          "selected": null,
+          "correctAnswer": "A",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M6-01",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "Look-ahead bias",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M6-02",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "Survivorship bias 해결",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        },
+        {
+          "id": "VAR-M6-03",
+          "module": "Reading 39 – Backtesting and Simulation",
+          "concept": "정규분포 vs t-분포",
+          "source": "변형",
+          "selected": null,
+          "correctAnswer": "B",
+          "isCorrect": null,
+          "attempts": 0
+        }
+      ],
+      "moduleAccuracy": {
+        "Reading 34 – Economics and Investment Markets": {
+          "total": 26,
+          "answered": 15,
+          "correct": 8,
+          "accuracy": 0.5333
+        },
+        "Reading 35 – Analysis of Active Portfolio Management": {
+          "total": 22,
+          "answered": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "Reading 36 – Exchange-Traded Funds: Mechanics and Applications": {
+          "total": 23,
+          "answered": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "Reading 37 – Using Multifactor Models": {
+          "total": 22,
+          "answered": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "Reading 38 – Measuring and Managing Market Risk": {
+          "total": 21,
+          "answered": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "Reading 39 – Backtesting and Simulation": {
+          "total": 16,
+          "answered": 0,
+          "correct": 0,
+          "accuracy": null
+        }
+      },
+      "weakConcepts": [
+        {
+          "concept": "Reading 34 – Economics and Investment Markets / 경기침체 → 수익률곡선 steepen",
+          "wrong": 1
+        },
+        {
+          "concept": "Reading 34 – Economics and Investment Markets / 고성장 → 실질금리 ↑ (차입 증가)",
+          "wrong": 1
+        },
+        {
+          "concept": "Reading 34 – Economics and Investment Markets / 우상향 곡선 = 단기채가 좋은 헤지",
+          "wrong": 1
+        },
+        {
+          "concept": "Reading 34 – Economics and Investment Markets / 상업용 부동산 할인율 = 주식 + 유동성 프리미엄",
+          "wrong": 1
+        },
+        {
+          "concept": "Reading 34 – Economics and Investment Markets / 부동산 PV 분자 = 순임대수입",
+          "wrong": 1
+        },
+        {
+          "concept": "Reading 34 – Economics and Investment Markets / 예상된 정보 = 가격 변화 없음",
+          "wrong": 1
+        },
+        {
+          "concept": "Reading 34 – Economics and Investment Markets / 하방 서프라이즈 → 공매도 대상 고르기",
+          "wrong": 1
+        }
+      ]
+    }
+  ]
+}
