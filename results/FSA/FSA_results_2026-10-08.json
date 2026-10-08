@@ -3,20 +3,20 @@
   "date": "2026-10-08",
   "latest": {
     "totalQuestions": 32,
-    "answered": 14,
-    "correct": 8,
-    "wrong": 6
+    "answered": 22,
+    "correct": 11,
+    "wrong": 11
   },
   "attempts": [
     {
-      "exportedAt": "2026-10-07T22:43:24.537Z",
+      "exportedAt": "2026-10-08T03:54:50.692Z",
       "mode": "all",
       "startedAt": "2026-10-06T22:20:27.921Z",
       "totalQuestions": 32,
-      "answered": 14,
-      "correct": 8,
-      "wrong": 6,
-      "accuracy": 0.5714,
+      "answered": 22,
+      "correct": 11,
+      "wrong": 11,
+      "accuracy": 0.5,
       "questions": [
         {
           "id": "ECO-M1-Q4",
@@ -163,80 +163,80 @@
           "module": "Module 1 – Intercorporate Investments",
           "concept": "FVPL 투자수익",
           "source": "ECO 오답",
-          "selected": null,
+          "selected": "A",
           "correctAnswer": "C",
-          "isCorrect": null,
-          "attempts": 0
+          "isCorrect": false,
+          "attempts": 1
         },
         {
           "id": "ECO-M1-Q44",
           "module": "Module 1 – Intercorporate Investments",
           "concept": "Equity method – 초과취득가 상각",
           "source": "ECO 오답",
-          "selected": null,
+          "selected": "C",
           "correctAnswer": "A",
-          "isCorrect": null,
-          "attempts": 0
+          "isCorrect": false,
+          "attempts": 1
         },
         {
           "id": "ECO-M1-Q45",
           "module": "Module 1 – Intercorporate Investments",
           "concept": "Full vs Partial goodwill (US GAAP vs IFRS)",
           "source": "ECO 오답",
-          "selected": null,
+          "selected": "B",
           "correctAnswer": "B",
-          "isCorrect": null,
-          "attempts": 0
+          "isCorrect": true,
+          "attempts": 1
         },
         {
           "id": "ECO-M1-Q46",
           "module": "Module 1 – Intercorporate Investments",
           "concept": "주식 발행 인수 – 부채비율",
           "source": "ECO 오답",
-          "selected": null,
+          "selected": "B",
           "correctAnswer": "A",
-          "isCorrect": null,
-          "attempts": 0
+          "isCorrect": false,
+          "attempts": 1
         },
         {
           "id": "ECO-M1-Q48",
           "module": "Module 1 – Intercorporate Investments",
           "concept": "Acquisition method – 식별가능 무형자산",
           "source": "ECO 오답",
-          "selected": null,
+          "selected": "C",
           "correctAnswer": "C",
-          "isCorrect": null,
-          "attempts": 0
+          "isCorrect": true,
+          "attempts": 1
         },
         {
           "id": "ECO-M1-Q49",
           "module": "Module 1 – Intercorporate Investments",
           "concept": "IFRS 9 분류 – Amortized cost 요건",
           "source": "ECO 오답",
-          "selected": null,
+          "selected": "B",
           "correctAnswer": "A",
-          "isCorrect": null,
-          "attempts": 0
+          "isCorrect": false,
+          "attempts": 1
         },
         {
           "id": "ECO-M1-Q52",
           "module": "Module 1 – Intercorporate Investments",
           "concept": "IFRS 9 재분류",
           "source": "ECO 오답",
-          "selected": null,
+          "selected": "B",
           "correctAnswer": "B",
-          "isCorrect": null,
-          "attempts": 0
+          "isCorrect": true,
+          "attempts": 1
         },
         {
           "id": "ECO-M1-Q53",
           "module": "Module 1 – Intercorporate Investments",
           "concept": "Bargain purchase (negative goodwill)",
           "source": "ECO 오답",
-          "selected": null,
+          "selected": "C",
           "correctAnswer": "A",
-          "isCorrect": null,
-          "attempts": 0
+          "isCorrect": false,
+          "attempts": 1
         },
         {
           "id": "ECO-M1-Q54",
@@ -342,9 +342,9 @@
       "moduleAccuracy": {
         "Module 1 – Intercorporate Investments": {
           "total": 32,
-          "answered": 14,
-          "correct": 8,
-          "accuracy": 0.5714
+          "answered": 22,
+          "correct": 11,
+          "accuracy": 0.5
         }
       },
       "weakConcepts": [
@@ -370,6 +370,26 @@
         },
         {
           "concept": "Module 1 – Intercorporate Investments / Equity method 투자 손상",
+          "wrong": 1
+        },
+        {
+          "concept": "Module 1 – Intercorporate Investments / FVPL 투자수익",
+          "wrong": 1
+        },
+        {
+          "concept": "Module 1 – Intercorporate Investments / Equity method – 초과취득가 상각",
+          "wrong": 1
+        },
+        {
+          "concept": "Module 1 – Intercorporate Investments / 주식 발행 인수 – 부채비율",
+          "wrong": 1
+        },
+        {
+          "concept": "Module 1 – Intercorporate Investments / IFRS 9 분류 – Amortized cost 요건",
+          "wrong": 1
+        },
+        {
+          "concept": "Module 1 – Intercorporate Investments / Bargain purchase (negative goodwill)",
           "wrong": 1
         }
       ]
